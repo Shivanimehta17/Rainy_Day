@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.bg {
+  background-color: rgba(0, 0, 0, 0.503);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  font-size: 40px;
+  color: snow;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  border:2px solid white;
+  border-radius: 10px;
+  background: transparent;
+  font-family: inherit;
+}
+button:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
